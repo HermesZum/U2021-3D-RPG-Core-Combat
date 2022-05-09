@@ -199,8 +199,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368426528}
-  m_LocalRotation: {x: -0.21431656, y: 0.20110443, z: -0.04514189, w: -0.954771}
-  m_LocalPosition: {x: 138.46323, y: 30.545982, z: 13.189396}
+  m_LocalRotation: {x: 0.33913755, y: -0.43020505, z: 0.17850618, w: 0.81734014}
+  m_LocalPosition: {x: 134.83307, y: 20.353127, z: 31.280506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -264,6 +264,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6a93d2e230dd5349a869e6f6b6cf4f5, type: 3}
+--- !u!4 &1357139106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8557978237162456136, guid: f6a93d2e230dd5349a869e6f6b6cf4f5, type: 3}
+  m_PrefabInstance: {fileID: 1078956022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1587301970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1424910640455828, guid: 3a588ffb21d99b342bd5fd7525ebe928, type: 3}
+  m_PrefabInstance: {fileID: 1678905811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1587301972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587301970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ec6af34d2d1d2419c93a64bf78053f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1357139106}
+--- !u!195 &1587301973
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587301970}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &1640473614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -338,11 +383,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1424910640455828, guid: 3a588ffb21d99b342bd5fd7525ebe928, type: 3}
       propertyPath: m_Name
-      value: SDummy
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4373103693413932, guid: 3a588ffb21d99b342bd5fd7525ebe928, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4373103693413932, guid: 3a588ffb21d99b342bd5fd7525ebe928, type: 3}
       propertyPath: m_LocalPosition.x
